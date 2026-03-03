@@ -8,14 +8,14 @@ import java.util.ArrayList;
  */
 public class Club
 {
-    private ArrayList <Membership> club;
+    private ArrayList <Membership> members;
     
     /**
      * Constructor for objects of class Club
      */
     public Club()
     {
-        club = new ArrayList<>();
+        members = new ArrayList<>();
     }
 
     /**
@@ -24,6 +24,7 @@ public class Club
      */
     public void join(Membership member)
     {
+        members.add(member);
     }
 
     /**
@@ -32,6 +33,6 @@ public class Club
      */
     public int numberOfMembers()
     {
-        return club.size();
+        return members.size();
     }
 }

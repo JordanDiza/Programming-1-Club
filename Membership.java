@@ -31,6 +31,7 @@ public class Membership
         this.year = year;
     }
     
+    
     /**
      * @return The member's name.
      */
